@@ -1,0 +1,4 @@
+"0",""
+"0","#To Remove Unwanted Variables"
+"0","trump_poll_3<-trump_poll_2%>%select(-url,-start_date,-end_date,-poll_id,-question_id,-multiversions,-tracking,-weight,-pollster,-grade,-sample_size,-population,-created_date,-adjusted_approve,-adjusted_disapprove)"
+"0","trump_poll_3"

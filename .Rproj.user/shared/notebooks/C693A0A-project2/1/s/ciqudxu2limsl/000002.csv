@@ -1,0 +1,4 @@
+"0","#Installed package for datasets"
+"0","#data(package=.packages(all.available=TRUE))"
+"0","#install.packages(""fivethirtyeight"")"
+"0","library(fivethirtyeight)"

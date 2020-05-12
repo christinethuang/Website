@@ -1,0 +1,4 @@
+"0",""
+"0","#To Arrange Columns in Descending Order"
+"0","trump_trend_3<-trump_trend_2%>%arrange(desc(`approval type`))%>%arrange(desc(`disapproval type`))%>%arrange(desc(subgroup))"
+"0","trump_trend_3"

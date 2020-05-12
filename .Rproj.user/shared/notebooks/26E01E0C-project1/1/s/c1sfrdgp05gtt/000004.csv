@@ -1,0 +1,8 @@
+"0","#If it was done with kmeans:"
+"0","library(cluster)"
+"0","clust_dat<-new7%>%ungroup%>%select_if(is.numeric)"
+"0","kmeans1<-clust_dat%>%scale%>%kmeans(3)"
+"0","kmeansclust <- clust_dat%>%mutate(cluster=as.factor(kmeans1$cluster))"
+"0","plot<-kmeansclust%>%ggplot(aes(`estimated approval percentage`,`estimated disapproval percentage`,color=cluster))+geom_point()"
+"0","plot"
+"0",""

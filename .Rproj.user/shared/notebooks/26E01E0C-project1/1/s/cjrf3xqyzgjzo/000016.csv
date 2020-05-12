@@ -1,0 +1,7 @@
+"0","#install.packages(""tidyverse"")"
+"0","library(tidyverse)"
+"0","#install.packages(""dplyr"")"
+"0","library(dplyr)"
+"0",""
+"0","inner_join_2<-trump_trend_3%>%inner_join(trump_poll_3, by = c(""subgroup"", ""timestamp""))"
+"0","inner_join_2"

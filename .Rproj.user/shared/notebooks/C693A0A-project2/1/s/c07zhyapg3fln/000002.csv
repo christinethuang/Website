@@ -1,0 +1,4 @@
+"0","#MANOVA Assumptions"
+"0","library(mvtnorm);library(ggExtra)"
+"0","p<-ggplot(crime,aes(age,household_quintile))+geom_point(alpha=.5)+geom_density_2d(h=2)"
+"0","ggMarginal(p,type=""density"",xparams=list(bw=.5),yparams=list(bw=.5))"

@@ -1,0 +1,4 @@
+"0",""
+"0","#Using mutate on dataset"
+"0","new5<-new1%>%mutate(types_definition=recode(`approval type`,approve_estimate=""exact estimate of percentage"", approve_high=""higher bound of percentage"", approve_low=""lower bound of percentage""))"
+"0","new5"

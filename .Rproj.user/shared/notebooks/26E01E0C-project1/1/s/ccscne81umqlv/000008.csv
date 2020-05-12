@@ -1,0 +1,8 @@
+"0","#install.packages(""tidyverse"")"
+"0","library(tidyverse)"
+"0","#install.packages(""dplyr"")"
+"0","library(dplyr)"
+"0",""
+"0","#To Create New Column called ""approval type"""
+"0","trump_trend_1<-trump_approval_trend%>%pivot_longer(cols=c(""approve_estimate"",""approve_high"",""approve_low""),names_to=""approval type"",values_to=""approval ratings"")"
+"0","trump_trend_1"

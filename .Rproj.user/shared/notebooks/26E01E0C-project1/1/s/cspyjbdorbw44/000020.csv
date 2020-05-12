@@ -1,0 +1,2 @@
+"0","full_join_2<-trump_trend_3%>%full_join(trump_poll_3, by = c(""subgroup"", ""timestamp""))"
+"0","full_join_2"

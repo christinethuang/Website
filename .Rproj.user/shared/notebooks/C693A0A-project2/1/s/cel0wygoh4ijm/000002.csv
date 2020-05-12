@@ -1,0 +1,6 @@
+"0","#Getting Binary Variable by Discretizing a Numeric "
+"0","#From the variable of gender, making Male=1 and Female=0"
+"0","library(tidyverse)"
+"0","library(lmtest)"
+"0","sex<-crime%>%mutate(y=ifelse(gender==""Male"",1,0))"
+"0","sex"

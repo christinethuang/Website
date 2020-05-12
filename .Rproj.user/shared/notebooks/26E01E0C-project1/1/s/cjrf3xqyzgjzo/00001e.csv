@@ -1,0 +1,4 @@
+"0",""
+"0","#Using arrange on Dataset"
+"0","new3<-new2%>%arrange(desc(`actual approval percentage`,`actual disapproval percentage`))"
+"0","new3"

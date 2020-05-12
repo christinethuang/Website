@@ -1,0 +1,1 @@
+"0","qplot(x=age,y=poverty_rate,color=gender,data=crime)+stat_smooth(method=""lm"",se=FALSE,fullrange=TRUE)"

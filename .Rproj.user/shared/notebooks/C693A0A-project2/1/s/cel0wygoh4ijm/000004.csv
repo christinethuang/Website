@@ -1,0 +1,2 @@
+"0",""
+"0","sex%>%group_by(sex$y)%>%count() #20 females, 418 males"

@@ -1,0 +1,4 @@
+"0",""
+"0","#Using summarize_if and group_by to find minimum and maximum"
+"0","sum_stat_4<- new6%>%group_by(subgroup)%>%summarize_if(is.numeric,list(min=min,max=max),na.rm=T)"
+"0","sum_stat_4"

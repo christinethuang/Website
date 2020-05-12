@@ -1,0 +1,4 @@
+"0",""
+"0","#Using summarize_at with vars"
+"0","sum_stat_3<-new6%>%select(-`approval type`)%>%summarize_at(vars(timestamp:`estimated approval percentage`),mean,na.rm=T)"
+"0","sum_stat_3"

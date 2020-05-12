@@ -1,0 +1,4 @@
+"0",""
+"0","#Test Statistic"
+"0","#Categorical v. Numeric: Mean difference"
+"0","crime%>%group_by(gender)%>%summarize(means=mean(age))%>%summarize('mean_diff:'=diff(means))"

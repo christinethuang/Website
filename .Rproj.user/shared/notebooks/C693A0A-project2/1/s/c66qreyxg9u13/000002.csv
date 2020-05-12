@@ -1,0 +1,7 @@
+"0","#Mean-Centering Numeric Variables"
+"0","mean(crime$age)"
+"1","[1]"
+"1"," 37.23059"
+"1","
+"
+"0","data.frame(age=head(crime$age))"

@@ -1,0 +1,4 @@
+"0",""
+"0","#Using summarize_if and group_by to find quantile"
+"0","sum_stat_5<-new6%>%group_by(subgroup)%>%summarize_if(is.numeric,list(Q3=quantile),probs=0.75, na.rm=T)"
+"0","sum_stat_5"

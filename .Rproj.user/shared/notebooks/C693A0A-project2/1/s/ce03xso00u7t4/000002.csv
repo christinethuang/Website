@@ -1,0 +1,13 @@
+"0","#ROC curve"
+"0","library(plotROC)"
+"2","
+Attaching package: ‘plotROC’
+
+"
+"2","The following object is masked from ‘package:pROC’:
+
+    ggroc
+
+"
+"0","ROCplot<-ggplot(sex)+geom_roc(aes(d=y,m=prob),n.cuts=0)"
+"0","ROCplot"

@@ -1,0 +1,3 @@
+"0",""
+"0","new6a<-inner_join_2%>%filter(subgroup==""Voters"")%>%select(subgroup,timestamp,`approval type`,""estimated approval percentage""= `approval ratings`,""actual approval percentage""= approve,`disapproval type`,""estimated disapproval percentage""= `disapproval ratings`, ""actual disapproval percentage""=disapprove)%>%mutate(types_definition=recode(`approval type`,approve_estimate=""exact estimate of percentage"", approve_high=""higher bound of percentage"", approve_low=""lower bound of percentage""))%>%arrange(desc(`actual approval percentage`,`actual disapproval percentage`))"
+"0","new6a"

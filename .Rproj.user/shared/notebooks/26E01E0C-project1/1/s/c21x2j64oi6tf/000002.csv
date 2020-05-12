@@ -1,0 +1,6 @@
+"0","#Installed package for datasets"
+"0","#install.packages(""fivethirtyeight"")"
+"0","library(fivethirtyeight)"
+"0","data(package=.packages(all.available=TRUE))"
+"2","datasets have been moved from package 'base' to package 'datasets'"
+"2","datasets have been moved from package 'stats' to package 'datasets'"

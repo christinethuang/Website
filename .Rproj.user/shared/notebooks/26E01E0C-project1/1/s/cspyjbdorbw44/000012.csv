@@ -1,0 +1,7 @@
+"0","#For joining, I dropped many variables from trump_approval_poll because I thought that there were too many variables that were not needed."
+"0",""
+"0","#Joining data sources into datasets:"
+"0",""
+"0","#Left_join shows all rows from left, even without any matches in the right"
+"0","left_join<-trump_approval_poll%>%left_join(trump_approval_trend, by = c(""subgroup"", ""timestamp""))"
+"0","left_join"

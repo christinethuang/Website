@@ -1,0 +1,4 @@
+"0",""
+"0","#Using select on Dataset"
+"0","new1<-new%>%select(subgroup,timestamp,`approval type`,`approval ratings`,approve,`disapproval type`,`disapproval ratings`,disapprove)"
+"0","new1"

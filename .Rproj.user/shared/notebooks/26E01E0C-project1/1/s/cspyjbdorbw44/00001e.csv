@@ -1,0 +1,4 @@
+"0",""
+"0","#Full_join combines results of both outer left and right"
+"0","full_join<-trump_approval_trend%>%full_join(trump_approval_poll, by = c(""subgroup"", ""timestamp""))"
+"0","full_join"

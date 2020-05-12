@@ -1,0 +1,4 @@
+"0",""
+"0","#To Create New Column called ""disapproval type"""
+"0","trump_trend_2<-trump_trend_1%>%select(-modeldate)%>%pivot_longer(c(""disapprove_estimate"",""disapprove_high"",""disapprove_low""),names_to=""disapproval type"",values_to=""disapproval ratings"")"
+"0","trump_trend_2"

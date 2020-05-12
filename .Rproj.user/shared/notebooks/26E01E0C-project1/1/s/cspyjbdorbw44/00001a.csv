@@ -1,0 +1,6 @@
+"0",""
+"0","#Note to self: For both full_join and inner_join: All row information is preserved. Order doesn't matter"
+"0",""
+"0","#Inner_join shows rows when there is match in both tables. It shows intersection of what is in common"
+"0","inner_join<-trump_approval_trend%>%inner_join(trump_approval_poll, by = c(""subgroup"", ""timestamp""))"
+"0","inner_join"

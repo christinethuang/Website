@@ -1,0 +1,4 @@
+"0","#Randomization Test"
+"0","#Plot Visualizing Null Distribution"
+"0","library(ggplot2)"
+"0","ggplot(crime,aes(age,fill=gender))+geom_histogram(bins=6.5)+facet_wrap(~gender,ncol=2)+theme(legend.position =""none"")"

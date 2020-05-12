@@ -1,0 +1,8 @@
+"0","#install.packages(""tidyverse"")"
+"0","library(tidyverse)"
+"0","#install.packages(""dplyr"")"
+"0","library(dplyr)"
+"0",""
+"0","#To Untidy the Already Tidy Dataset"
+"0","trump_poll_1<-trump_approval_poll%>%pivot_wider(names_from=""pollster"",values_from=""grade"")"
+"0","trump_poll_1"

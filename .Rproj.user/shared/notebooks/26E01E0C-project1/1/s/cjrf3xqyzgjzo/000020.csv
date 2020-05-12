@@ -1,0 +1,4 @@
+"0",""
+"0","#Using group_by and summarize on dataset"
+"0","new4<-new3%>%group_by(subgroup)%>%summarize(avr_est_approv_perc=mean(`estimated approval percentage`,na.rm=T),avr_est_disapprov_perc=mean(`estimated disapproval percentage`,na.rm=T), avr_actual_approv_perc=mean(`actual approval percentage`,na.rm=T),avr_actual_disapprov_perc=mean(`actual disapproval percentage`,na.rm=T))"
+"0","new4"

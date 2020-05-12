@@ -1,0 +1,3 @@
+"0",""
+"0","heatmap<-tidycor%>%ggplot(aes(rowname,name,fill=correlation))+geom_tile()+scale_fill_gradient2(low=""red"",mid=""white"",high=""blue"")+geom_text(aes(label=round(correlation,2)),color=""black"",size=4)+theme(axis.text.x=element_text(angle=90,hjust=1))+coord_fixed()"
+"0","heatmap"

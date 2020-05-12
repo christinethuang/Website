@@ -1,0 +1,5 @@
+"0",""
+"0","#The ggplot that shows the relations of approval type vs. estimated approval percentage by its subgroup"
+"0","ggplot3<-new7%>%ggplot(aes(`approval type`,`estimated approval percentage`))+geom_point(size=3,aes(color=subgroup))+scale_fill_brewer()+ggtitle(""Estimated Approval Percentage vs. Approval Type by Subgroup"")"
+"0","ggplot3"
+"0",""

@@ -1,0 +1,8 @@
+"0","#install.packages(""dplyr"")"
+"0","library(dplyr)"
+"0","#install.packages(""ggplot2"")"
+"0","library(ggplot2)"
+"0",""
+"0","#Make ggplots"
+"0","ggplot1<-new7%>%ggplot(aes(subgroup,`actual approval percentage`))+geom_bar(stat=""summary"")+geom_errorbar(stat=""summary"")"
+"0","ggplot1"

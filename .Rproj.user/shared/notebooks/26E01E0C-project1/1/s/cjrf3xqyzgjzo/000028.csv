@@ -1,0 +1,6 @@
+"0",""
+"0","#I did the 6 core dplyr functions separately first before combining all of them because it was easier for me to organize it and keep track this way."
+"0",""
+"0","#Using select on dataset"
+"0","new7<-new1%>%select(subgroup,timestamp,`approval type`,""estimated approval percentage""= `approval ratings`,""actual approval percentage""= approve,`disapproval type`,""estimated disapproval percentage""= `disapproval ratings`, ""actual disapproval percentage""=disapprove)"
+"0","new7"

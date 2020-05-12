@@ -1,0 +1,4 @@
+"0",""
+"0","#Right_join shows all rows from right, even without any matches in the left"
+"0","right_join<-trump_approval_poll%>%right_join(trump_approval_trend, by = c(""subgroup"", ""timestamp""))"
+"0","right_join"

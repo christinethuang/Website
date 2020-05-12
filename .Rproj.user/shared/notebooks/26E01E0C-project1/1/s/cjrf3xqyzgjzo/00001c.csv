@@ -1,0 +1,4 @@
+"0",""
+"0","#Using filter and select on Dataset"
+"0","new2<-new1%>%filter(subgroup==""Voters"")%>%select(subgroup,timestamp,`approval type`,""estimated approval percentage""= `approval ratings`,""actual approval percentage""= approve,`disapproval type`,""estimated disapproval percentage""= `disapproval ratings`, ""actual disapproval percentage""=disapprove)"
+"0","new2"

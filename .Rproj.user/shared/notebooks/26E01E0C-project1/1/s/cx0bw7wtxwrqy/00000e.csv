@@ -1,0 +1,3 @@
+"0","#Using group_by subgroup and timestamp to find mean, sd, n, and se for estimated approval and disapproval"
+"0","sum_stat_1<-new6%>%group_by(subgroup,timestamp)%>%summarize(mean_est_approv_perc=mean(`estimated approval percentage`,na.rm=T),sd_est_approv_perc=sd(`estimated approval percentage`,na.rm=T),n=n(),se_est_approv_perc=sd_est_approv_perc/sqrt(n),mean_est_disapprov_perc=mean(`estimated disapproval percentage`,na.rm=T),sd_est_disapprov_perc=sd(`estimated disapproval percentage`),n=n(),se_est_disapprov_perc=sd_est_disapprov_perc/sqrt(n))"
+"0","sum_stat_1"

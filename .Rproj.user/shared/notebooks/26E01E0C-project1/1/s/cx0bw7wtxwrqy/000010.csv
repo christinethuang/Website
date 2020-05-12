@@ -1,0 +1,4 @@
+"0",""
+"0","#Using n_distinct to summarize based on filter by voters"
+"0","sum_stat_2<-new6%>%summarize_all(n_distinct)"
+"0","sum_stat_2"
