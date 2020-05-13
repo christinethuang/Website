@@ -13,8 +13,6 @@ output:
 </div>
 <div id="project-1-exploratory-data-analysis" class="section level2">
 <h2>Project 1: Exploratory Data Analysis</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
 <div id="finding-data" class="section level3">
 <h3>Finding Data</h3>
 <p>I chose to use the datasets, trump_approval_trend and trump_approval_poll, because I was curious and wanted to see the percentage of those who approve or disapprove of President Trump. Additionally, I wanted to see the differences and similarities between the two datasets in terms of estimate and actual rating. The trump_approval_trend has 11 variables and 1044 rows, and the trump_approval_poll has 20 variables and 3051 rows. Both datasets share the same variables of subgroup and of timestamp. I expect that there will be a correlation between subgroup and approval/disapproval rating. I acquired the dataset using the data(package=.packages(all.available=TRUE)) given in the project pdf.</p>
@@ -34,12 +32,12 @@ data(trump_approval_trend)
 data(trump_approval_poll)</code></pre>
 <pre class="r"><code>#install.packages(&quot;tidyverse&quot;)
 library(tidyverse)</code></pre>
-<pre><code>## ── Attaching packages ───────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
 <pre><code>## ✓ ggplot2 3.2.1     ✓ purrr   0.3.3
 ## ✓ tibble  2.1.3     ✓ dplyr   0.8.4
 ## ✓ tidyr   1.0.2     ✓ stringr 1.4.0
 ## ✓ readr   1.3.1     ✓ forcats 0.4.0</code></pre>
-<pre><code>## ── Conflicts ──────────────────────── tidyverse_conflicts() ──
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ## x dplyr::filter() masks stats::filter()
 ## x dplyr::lag()    masks stats::lag()</code></pre>
 </div>
