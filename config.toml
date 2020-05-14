@@ -20,9 +20,8 @@ theme = "hugo-sustain"
   custom_js  = []
 
 [params.social]
-  Github        = "christinethuang" 
   Email         = "christineaddress@utexas.edu"
-  LinkedIn      = "Christine Huang"
+  LinkedIn      = "https://www.linkedin.com/in/christine-huang-8b66b3154/"
 
 ## Main Menu
 [[menu.main]]
