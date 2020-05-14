@@ -1,14 +1,12 @@
 ---
 categories:
 - projects
-date: "2020-13-05"
+date: "Spring 2020"
 showpagemeta: false
 tags:
 - projects
 title: Projects
 ---
-## Projects 
-
 Here are some projects I have recently completed:
 
 - [Exploratory Data Analysis with Tidyverse Tools](/project1/)
