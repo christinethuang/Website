@@ -6,6 +6,7 @@ showpagemeta: false
 tags:
 - projects
 title: Projects
+date:"Spring 2020"
 ---
 Here are some projects I have recently completed:
 
