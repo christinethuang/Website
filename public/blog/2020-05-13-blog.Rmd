@@ -7,27 +7,22 @@ categories: []
 tags: []
 description: ''
 ---
-When it comes to data science, there has been a debate between Python and R languages that I have recently learned about. Both Python and R are generally useful and helpful for coding. However, each has their own advantages and disadvantages. 
+![](/blog/2020-05-13-blog_files/pic.png)
 
-Python generally has a more simplified syntax (ex. has less braces and parentheses and is more popularly used among people. On the other hand, R is used more often by those in specifically in the field of biostats and offers more easily accessible packages. 
+When it comes to data science, there has been a debate between Python and R languages that I have recently learned about. Both Python and R are generally useful and helpful for coding. However, each has their own advantages and disadvantages.
+
+Python generally has a more simplified syntax (ex. has less braces and parentheses) and is more popularly used among people. On the other hand, R offers more easily accessible packages and is used more often by those specifically in the field of biostats. 
 
 As I practice and learn more about both languages, I hope to add more to this list.
 
-Below is 
-
-
-#go to add-ins. insert image. put browse. see if it works on the viewer.make sure to save it. It should work
-
 ```{python}
 #this is a python code chunk
-print("hello world!")
-x="dog"
+print("Austin, we're going to get through this!")
 ```
 
 ```{R}
 library(reticulate) #install package reticulate
 #this is an R code chunk 
-py$x
 y<-2
 ```
 
