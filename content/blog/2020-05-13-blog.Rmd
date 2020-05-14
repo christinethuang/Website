@@ -7,29 +7,22 @@ categories: []
 tags: []
 description: ''
 ---
+![](/blog/2020-05-13-blog_files/pic.jpg)
+
 When it comes to data science, there has been a debate between Python and R languages that I have recently learned about. Both Python and R are generally useful and helpful for coding. However, each has their own advantages and disadvantages. 
 
-Although there are many more advantages and disadvantages between Python and R, listed below are the characteristics that I personally noticed.  
-
-Python:
-- has a more simplified syntax (ex. has less braces and parentheses)
-- is more popularly used among people
-
-R:
-- is used more often and specifically in biostats and for biology majors
-- offers more easily accessible packages 
+Python generally has a more simplified syntax (ex. has less braces and parentheses) and is more popularly used among people. On the other hand, R offers more easily accessible packages and is used more often by those specifically in the field of biostats. 
 
 As I practice and learn more about both languages, I hope to add more to this list.
 
-Below is 
+
 
 
 #go to add-ins. insert image. put browse. see if it works on the viewer.make sure to save it. It should work
 
 ```{python}
 #this is a python code chunk
-print("hello world!")
-x="dog"
+print("Austin, we're going to get through this!")
 ```
 
 ```{R}
