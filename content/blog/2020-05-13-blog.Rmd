@@ -7,3 +7,11 @@ categories: []
 tags: []
 description: ''
 ---
+
+pros and cons and advantages and disadvantages of r and python
+talk about what python is 
+talk about basics
+talk about tools that are used 
+give an example
+put code there as well 
+maybe put a link to a different website with more information
