@@ -1,13 +1,13 @@
 ---
 title: An Introduction to Python and R
 author: Christine Huang
-date: '2020-05-14'
+date: '2020-05-15'
 slug: blog
 categories: []
 tags: []
 description: ''
 ---
-![](/blog/2020-05-13-blog_files/pic.png)
+![](/blog/2020-05-13-blog_files/pic.png){width=50%}
 
 When it comes to data science, there has been a debate between Python and R languages that I have recently learned about. Both Python and R are generally useful and helpful for coding. However, each has their own advantages and disadvantages.
 
@@ -20,9 +20,7 @@ Below are some examples of both Python and R. The first example is one of the mo
 print("Austin, we're going to get through this!")
 ```
 
-The second example is extracted from a homework I was assigned in class. 
-
-The following presents with several real-world strings. The task is to use regular expressions in python to match (and return) the requested parts in each. Using re.findall(), match all numbers and pull them from the following string (string1).
+The second example of Python is extracted from part of a homework I was assigned in class. The following presents with several real-world strings. The task is to use regular expressions in python to match (and return) the requested parts in each. Using re.findall(), match all numbers and pull them from the following string (string1).
 
 ```{python}
 import re
