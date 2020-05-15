@@ -1,0 +1,16 @@
+---
+title: "Project"
+author: "Christine Huang"
+date: "2020-15-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Here are some projects I have recently completed:
+
+- [Exploratory Data Analysis with Tidyverse Tools](/project1/)
+
+- [Modeling, Testing, and Classification](/project2/)

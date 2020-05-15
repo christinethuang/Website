@@ -22,23 +22,15 @@
   </url>
   
   <url>
+    <loc>/project/</loc>
+  </url>
+  
+  <url>
     <loc>/project1/</loc>
   </url>
   
   <url>
     <loc>/project2/</loc>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/projects/</loc>
   </url>
   
   <url>
