@@ -20,7 +20,7 @@ Below are some examples of both Python and R. The first example is one of the mo
 print("Austin, we're going to get through this!")
 ```
 
-The second example of Python is extracted from part of a homework I was assigned in class. The following presents with several real-world strings. The task is to use regular expressions in python to match (and return) the requested parts in each. 
+The second example of Python is extracted from part of a homework I was assigned in class. The following presents with several real-world strings. The task is to use regular expressions in python to match (and return) the requested parts in each.
 Using re.findall(), match all numbers and pull them from the following string (string1).
 
 ```{python}
