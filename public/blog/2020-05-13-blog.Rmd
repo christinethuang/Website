@@ -13,14 +13,30 @@ When it comes to data science, there has been a debate between Python and R lang
 
 For instance, Python generally has a more simplified syntax (ex. has less braces and parentheses) and is more popularly used among people. On the other hand, R offers more easily accessible packages and is used more often by those specifically in the field of biostats. 
 
-Below are some examples. The first example is one of the most basic expressions in Python. I decided to print out "Austin, we're going to get through this!" I saw this message written in chalk on the sidewalk of South Congress and wanted to express support towards the community during the COVID-19 pandemic.  
+Below are some examples of both Python and R. The first example is one of the most basic expressions in Python. I decided to print out "Austin, we're going to get through this!" I saw this message written in chalk on the sidewalk of South Congress and wanted to express support towards the community during the COVID-19 pandemic.  
 
 ```{python}
 #this is a very basic python code chunk
 print("Austin, we're going to get through this!")
 ```
 
-The second example is 
+The second example is extracted from a homework I was assigned in class. 
+
+The following presents with several real-world strings. The task is to use regular expressions in python to match (and return) the requested parts in each. Using re.findall(), match all numbers and pull them from the following string (string1).
+
+```{python}
+import re
+
+string1="We have to extract these numbers 12, 47, 48 The integers numbers are also interesting: 189 2036 314\',\' is a separator, so please extract these numbers 125,789,1450 and also these 564,90456 We like to offer you 7890$ per month in order to complete this task... we are joking"
+print(string1)
+```
+
+```{python}
+re.findall(r'[0-9]+', string1)
+```
+
+This example is R. 
+
 ```{R}
 library(reticulate) #install package reticulate
 #this is an R code chunk 
@@ -30,13 +46,3 @@ y<-2
 ```{python}
 r.y+1==3
 ```
-
-it can't be this exact example but it might work
-do I need to put an image here in blog post?
-pros and cons and advantages and disadvantages of r and python
-talk about what python is 
-talk about basics
-talk about tools that are used 
-give an example
-put code there as well 
-maybe put a link to a different website with more information
